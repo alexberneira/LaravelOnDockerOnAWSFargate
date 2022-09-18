@@ -1,3 +1,7 @@
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -21,7 +25,24 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+
+
+Creating a laravel app with docker and put in a AWS ECS Fargate
+
+@@ steps
+
+- Create a app laravel locally
+- Create a Dockerfile with PHP and Composer
+- Build docker image
+- Install and Configure AWS CLI
+- Create a repository on ECS AWS
+- Push docker image to ECS AWS
+- Create a ECS cluster for use with a AWS Fargate
+- Create a service Fargate (adding the docker image) on cluster ECS
+- Test opening the IP on browser
+
+
+<!-- ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
@@ -61,4 +82,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
