@@ -33,7 +33,8 @@ Creating a laravel app with docker and put in a AWS ECS Fargate
 
 - Create a app laravel locally
 - Create a Dockerfile with PHP and Composer
-- Build docker image
+- run image for test (docker run -p 80:80 laravelimageaws)
+- Build docker image (docker build -t laravelimageaws .)
 - Install and Configure AWS CLI
 - Create a repository on ECS AWS
 - Push docker image to ECS AWS
