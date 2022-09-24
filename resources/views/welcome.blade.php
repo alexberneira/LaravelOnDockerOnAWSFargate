@@ -55,7 +55,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    ->  or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+                                    ->  EU CONSEGUI PQP previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
                             </div>
                         </div>
