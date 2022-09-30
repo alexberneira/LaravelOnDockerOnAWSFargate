@@ -38,6 +38,10 @@ Creating a laravel app with docker and put in a AWS ECS Fargate
 - Install and Configure AWS CLI
 - Create a repository on ECS AWS
 - Push docker image to ECS AWS
+    // aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 264694527184.dkr.ecr.us-east-1.amazonaws.com
+    // docker tag projectlaraveldocker:latest 264694527184.dkr.ecr.us-east-1.amazonaws.com/projectlaraveldocker:latest
+    // docker push 264694527184.dkr.ecr.us-east-1.amazonaws.com/projectlaraveldocker:latest
+    // aws ecs update-service --force-new-deployment --service appdockerlaravel --cluster appdockerlaravel
 - Create a ECS cluster for use with a AWS Fargate
 - Create a service Fargate (adding the docker image) on cluster ECS
 - Test opening the IP on browser
