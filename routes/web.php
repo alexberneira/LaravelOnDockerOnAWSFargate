@@ -21,6 +21,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 })->name("welcome");
 
-Route::get('/dash', function () {
-    return view('dash');
-})->name("dash");
+Route::get('/user', [\App\Http\Controllers\InsertUsers::class, 'insert']);
+
+
+
+
+Route::get('/api', [\App\Http\Controllers\ApiCreateUser::class,'GetApiData']);
+
