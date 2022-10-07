@@ -23,8 +23,7 @@ Route::get('/welcome', function () {
 
 Route::get('/user', [\App\Http\Controllers\InsertUsers::class, 'insert']);
 
-
-
+Route::get('/readexcel', [\App\Http\Controllers\ReadDataUsersFromFile::class, 'ReadDatafromexcel']);
 
 Route::get('/api', [\App\Http\Controllers\ApiCreateUser::class,'GetApiData']);
 
